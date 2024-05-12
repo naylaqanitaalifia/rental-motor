@@ -1,0 +1,27 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: url(bg-img.jpg);
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(226, 223, 208, 0.5);
+    border: 1px solid #d7d3ad;
+    border-radius: 8px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.btn-custom {
+    background-color: #a5bddc;
+}
+
+.btn-custom:hover {
+    background-color: #93accd;
+}
+
+.custom-border {
+    border-radius: 8px;
+}
