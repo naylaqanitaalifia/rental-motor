@@ -46,7 +46,7 @@
 
         function buktiTransaksi() {
           $member = in_array($this->namaPelanggan, $this->namaMember) ? "Member" : "Non Member";
-          $diskon = $member == "Member" ? "mendapatkan diskon sebesar 5%" : "";
+          $diskon = $member == "Member" ? " mendapatkan diskon sebesar 5%" : "";
           $hargaRental = $this->hargaRental[$this->jenisMotor];
           $totalHarga = $this->hitungHarga();
 
