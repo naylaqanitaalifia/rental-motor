@@ -98,7 +98,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ?>
       <div class="row justify-content-center">
-        <div class="col-md-8 text-center border custom-border border-2 p-3">
+        <div class="col-md-8 text-center border rounded-2 border-2 p-3">
           <p><?php echo $rental->buktiTransaksi(); ?></p>
         </div>
       </div>
